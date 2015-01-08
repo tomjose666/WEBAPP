@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* CSS Document */
+.main{
+	width:1080px;
+	height:1280px;
+	margin:auto;
+	background:url(../images/main.jpg);
+	padding-top:20px;
+}
+.header{
+	width:960px;
+	height:250px;
+	background:url(../images/header.jpg);
+	margin:auto;
+	border-radius:19px;
+	overflow:visible;
+	padding-top:2px;
+}
+#fb{
+	width: 55px;
+    height: 55px;
+    border-radius: 55px;
+    margin-top: 189px;
+    margin-left: 852px;
+	border-radius: 200px;
+	-webkit-animation-name: seven1;
+    -webkit-animation-duration: 1s;
+   -webkit-animation-iteration-count: 1;
+   -webkit-animation-direction: normal;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-delay: 1s;
+	
+	animation-name: seven1;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function:linear;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+	}
+#fba,#tw,#gp{
+	opacity:0.6;
+	}
+#fba:hover,#tw:hover,#gp:hover{
+	opacity:1;
+	}
+#twitter{
+	width: 55px;
+    height: 55px;
+    border-radius: 55px;
+    margin-top: -130px;
+    margin-left: 852px;
+	border-radius: 200px;
+	-webkit-animation-name: seven2;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-direction: normal;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-delay: 2s;
+	
+	animation-name: seven2;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function:linear;
+    animation-fill-mode: both;
+    animation-delay: 2s;
+	}
+#google{
+	width: 55px;
+    height: 55px;
+    border-radius: 55px;
+    margin-top: -130px;
+    margin-left: 852px;
+	border-radius: 200px;
+	-webkit-animation-name: seven3;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-direction: normal;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-fill-mode: both;
+   -webkit-animation-delay: 3s;
+	
+	animation-name: seven3;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function:linear;
+    animation-fill-mode: both;
+    animation-delay: 3s;
+	}
+@-webkit-keyframes seven1 {
+   0%   {-webkit-transform:translateY(-200px)rotate(0deg); opacity:0;}
+    100% {-webkit-transform:translateY(0px)rotate(180deg); opacity:1}
+}
+@keyframes seven1 {
+   0%   {transform:translateY(-200px)rotate(0deg); opacity:0;}
+    100% {transform:translateY(0px)rotate(180deg); opacity:1}
+}
+@-webkit-keyframes seven2 {
+   0%   {-webkit-transform:translateY(-200px)rotate(0deg); opacity:0;}
+    100% {-webkit-transform:translateY(0px)rotate(180deg); opacity:1}
+}
+@keyframes seven2 {
+   0%   {transform:translateY(-200px)rotate(0deg); opacity:0;}
+    100% {transform:translateY(0px)rotate(180deg); opacity:1}
+}
+@-webkit-keyframes seven3 {
+   0%   {-webkit-transform:translateY(-200px)rotate(0deg); opacity:0;}
+    100% {-webkit-transform:translateY(0px)rotate(180deg); opacity:1}
+}
+@keyframes seven3 {
+   0%   {transform:translateY(-200px)rotate(0deg); opacity:0;}
+    100% {transform:translateY(0px)rotate(180deg); opacity:1}
+}
+#contactadr{
+    width: 443px;
+    height: 509px;
+    background: none repeat scroll 0% 0% #FFFF80;
+    float: left;
+    margin-left: 60px;
+    margin-top: 51px;
+	}
+#main {
+    width: 500px;
+    height: 500px;
+    margin-left: 519px;
+    background:skyblue;
+    padding-top: 10px;
+    border-radius: 4px;
+    margin-top: 58px;
+	
+	
+}
+#head{
+	width: 500px;
+    height: 75px;
+    background-image:url(../images/contact.png);
+    border-radius: 2px;
+    margin-top: -10px;
+	}
+#form{
+	margin:53px 87.5px;
+	
+	}
+#name{
+	height: 20px;
+    width: 325px;
+	border-radius:3px;
+	}
+#email{
+	height: 20px;
+    width: 325px;
+	margin-top: 20px;
+	border-radius:3px;
+	}
+#message{
+    width: 325px;
+	height:200px;
+	margin-top: 20px;
+	border-radius:3px;
+	}
+#button{
+	width: 85px;
+    height: 33px;
+	margin-top: 33px;
+    margin-left: 249px;
+	background-image:url(../images/sends.png);
+	}
+#map{
+	width: 960px;
+    height: 200px;
+    margin: auto;
+    margin-top: 24px;
+	border-radius:5px;
+	overflow:hidden;
+	}
+.footer {
+	   width: 960px;
+       height: 72px;
+       border-radius: 6px;
+       background-color: #F00;
+       margin: auto;
+       margin-top: 115px;
+	   background:url(../images/footer.jpg);
+	   text-align:center;
+	   line-height:70px;
+}
+p{
+	margin-left: 42px;
+    margin-top: 16px;
+	font-size:18px;
+	}
+strong{
+	font-size:24px;
+	font-family:"Comic Sans MS", cursive;
+	font-weight:700;
+	color:#FF3535;
+	}
+

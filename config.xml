@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.hackerz.personal app"
+        version   = "1.0">
+
+    <name>Anonymous</name>
+
+    <description>
+        Test Site
+    </description>
+
+    <author href="alientechnologies4u.wordpress.com" email="tomjose0000@gmail.com">
+        Anonymous
+    </author>
+
+    <preference name="permissions" value="none"/>
+
+
+    <icon src="res/icon/android/drawable-ldpi/tp_icon.png" gap:platform="android" gap:qualifier="ldpi" />
+    <icon src="res/icon/android/drawable-mdpi/tp_icon.png" gap:platform="android" gap:qualifier="mdpi" />
+    <icon src="res/icon/android/drawable-hdpi/tp_icon.png" gap:platform="android" gap:qualifier="hdpi" />
+    <icon src="res/icon/android/drawable-xhdpi/tp_icon.png" gap:platform="android" gap:qualifier="xhdpi" />
+    <icon src="res/icon/android/drawable-xxhdpi/tp_icon.png" gap:platform="android" gap:qualifier="xxhdpi" />
+    
+ <gap:splash src="res/splash/android/drawable-ldpi/tp_splash.png" gap:platform="android" gap:qualifier="ldpi" />
+<gap:splash src="res/splash/android/drawable-mdpi/tp_splash.png" gap:platform="android" gap:qualifier="mdpi" />
+<gap:splash src="res/splash/android/drawable-hdpi/tp_splash.png" gap:platform="android" gap:qualifier="hdpi" />
+<gap:splash src="res/splash/android/drawable-xhdpi/tp_splash.png" gap:platform="android" gap:qualifier="xhdpi" />
+
+    
+
+</widget>
